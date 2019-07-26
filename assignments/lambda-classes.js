@@ -8,6 +8,7 @@ class Person{
     speak(){
         console.log(`Hello my name is ${this.name}, I am from ${this.location}`);
     }
+
 }
 class Instructor extends Person{
     constructor(ins_attrs){
@@ -48,7 +49,7 @@ class Project_Manager extends Student{
         this.location = con_attrs.location;
     }
     standup(chanel){
-        console.log(`${name} announces to ${channel}, @channel standy times!`​​​​​);
+        console.log(`${name} announces to ${channel}, @channel standy times!`);
     }
     debugsCode(studen, subject){
         console.log(`${name} debugs ${student.name}'s code on ${subject}`);
